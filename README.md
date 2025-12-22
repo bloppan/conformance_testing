@@ -14,7 +14,7 @@ The binaries are typically invoked as follows:
 vinwolf-target --fuzz $DIR
 ```
 
-Where `$DIR` points to the directory containing the test vectors or fuzzing inputs.
+Where `$DIR` refers to the **Unix domain socket file** used for fuzzing and conformance testing.
 
 Tipical usage:
 
